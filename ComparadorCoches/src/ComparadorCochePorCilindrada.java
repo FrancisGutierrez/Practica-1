@@ -1,6 +1,5 @@
 import java.util.Comparator;
 
-
 public class ComparadorCochePorCilindrada implements Comparator<Coche> {
 
 	@Override

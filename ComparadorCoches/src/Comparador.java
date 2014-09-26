@@ -7,8 +7,7 @@ public class Comparador {
 		Coche c2 = new Coche("3218-UDE", 3000, 200);
 		Coche c3 = new Coche("8675-OIF", 900, 50);
 		Coche c4 = new Coche("enter", 8000, 950);
-		
-		
+				
 		ArrayList<Coche> list = new ArrayList<Coche>();
 		
 		list.add(c1);

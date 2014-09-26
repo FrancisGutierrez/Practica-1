@@ -17,7 +17,7 @@ public class Comparador {
 		list.add(c4);
 		
 		Collections.shuffle(list);
-		System.out.println("puta lista");
+		System.out.println("Lista de Coches");
 		System.out.println(list);
 		
 		Collections.sort(list, new ComparadorCochePorCilindrada());

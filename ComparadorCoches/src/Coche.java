@@ -35,5 +35,12 @@ public class Coche {
 	public void setCaballos(int caballos) {
 		this.caballos = caballos;
 	}
+
+	@Override
+	public String toString() {
+		return "\nCoche ["
+				+ (matricula != null ? "matricula=" + matricula + ", " : "")
+				+ "cilindrada=" + cilindrada + ", caballos=" + caballos + "]\n";
+	}
 	
 }

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class Comparador {
@@ -15,5 +16,13 @@ public class Comparador {
 		list.add(c2);
 		list.add(c3);
 		list.add(c4);
+		
+		Collections.shuffle(list);
+		System.out.println("puta lista");
+		System.out.println(list);
+		
+		Collections.sort(list, new ComparadorCochePorCilindrada());
+		
+		System.out.println(list);
 	}
 }

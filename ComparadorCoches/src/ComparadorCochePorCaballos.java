@@ -7,4 +7,5 @@ public class ComparadorCochePorCaballos implements Comparator<Coche> {
 		}
 		// comentario eclipse B
 		// conflicto oriol
+		//nos quedamos con la versión de oriol
 }

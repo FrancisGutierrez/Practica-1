@@ -6,4 +6,5 @@ public class ComparadorCochePorCaballos implements Comparator<Coche> {
 			return c1.getCaballos()-c2.getCaballos();
 		}
 		// comentario eclipse B
+		// conflicto oriol
 }

@@ -16,6 +16,11 @@ public class Comparador {
 		list.add(c3);
 		list.add(c4);
 		
+		
+		
+		
+		
+		
 		Collections.shuffle(list);
 		System.out.println("Lista de Coches");
 		System.out.println(list);

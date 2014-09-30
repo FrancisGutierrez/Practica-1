@@ -21,7 +21,13 @@ public class Comparador {
 		System.out.println(list);
 		
 		Collections.sort(list, new ComparadorCochePorCilindrada());
-		
+		System.out.println("Lista de Coches ordenada por Cilindrada");
+		System.out.println(list);
+		Collections.sort(list, new ComparadorCochePorCaballos());
+		System.out.println("Lista de Coches ordenada por Caballos");
+		System.out.println(list);
+		Collections.sort(list, new ComparadorCochePorMatricula());
+		System.out.println("Lista de Coches ordenada por Matricula");
 		System.out.println(list);
 	}
 }
